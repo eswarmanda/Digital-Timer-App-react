@@ -1,0 +1,111 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.timerUi-card {
+  height: 600px;
+  width: 700px;
+  background: linear-gradient(to right, #defafe, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: xx-large;
+  font-weight: 450;
+}
+.timer-box {
+  display: flex;
+}
+.timer {
+  width: 420px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  padding: 10px;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-timer {
+  height: 130px;
+  width: 130px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  box-shadow: 0px 4px 16px 1px #65bea8;
+}
+.timer-setting {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+}
+.icon {
+  height: 25px;
+  margin-right: 5px;
+}
+.icon-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+}
+.play-pause-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+   align-items: center;
+}
+.reset-btn {
+  border: none;
+  background-color: transparent;
+}
+.p1 {
+  font-size: x-small;
+  font-weight: 500;
+}
+.control-setting {
+  display: flex;
+  margin-top: 10px;
+}
+.set-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #6cf3d2, #00d9f5);
+}
+.set-status {
+  font-size: x-large;
+  font-weight: 700;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: x-large;
+  font-weight: 700;
+}
